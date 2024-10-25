@@ -12,7 +12,10 @@ import '../../../checagem_page.dart';
 import 'ContatoeLocalizacao/contato_localizacao.dart';
 import 'Negocios/negocios.dart';
 import 'RedesSociais/redes_sociais.dart';
+<<<<<<< HEAD
 import 'package:image/image.dart' as img;
+=======
+>>>>>>> dc36cb82b6984516f22fadc21fcebe6ae65b3f83
 
 class HomePerfil extends StatefulWidget {
   const HomePerfil({super.key});
@@ -109,14 +112,22 @@ class _HomePerfilState extends State<HomePerfil> {
               height: 20,
             ),
 
+<<<<<<< HEAD
             SizedBox(
+=======
+            Container(
+>>>>>>> dc36cb82b6984516f22fadc21fcebe6ae65b3f83
               height: 120,
               child: ListView(
                 scrollDirection: Axis.horizontal,
                 children: [
                   //Salvos
                   GestureDetector(
+<<<<<<< HEAD
                     child: SizedBox(
+=======
+                    child: Container(
+>>>>>>> dc36cb82b6984516f22fadc21fcebe6ae65b3f83
                       height: 100,
                       width: 75,
                       child: Column(
@@ -207,7 +218,11 @@ class _HomePerfilState extends State<HomePerfil> {
                   ),
                   //Contato & Localização
                   GestureDetector(
+<<<<<<< HEAD
                     child: SizedBox(
+=======
+                    child: Container(
+>>>>>>> dc36cb82b6984516f22fadc21fcebe6ae65b3f83
                       height: 100,
                       width: 75,
                       child: Column(
@@ -254,7 +269,11 @@ class _HomePerfilState extends State<HomePerfil> {
                   ),
                   //Contato & Localização
                   GestureDetector(
+<<<<<<< HEAD
                     child: SizedBox(
+=======
+                    child: Container(
+>>>>>>> dc36cb82b6984516f22fadc21fcebe6ae65b3f83
                       height: 100,
                       width: 75,
                       child: Column(
@@ -327,7 +346,11 @@ class _HomePerfilState extends State<HomePerfil> {
                   title: SingleChildScrollView(
                     scrollDirection: Axis.horizontal,
                     child: Text(
+<<<<<<< HEAD
                       dados.nome,
+=======
+                      "${dados.nome}",
+>>>>>>> dc36cb82b6984516f22fadc21fcebe6ae65b3f83
                       style: GoogleFonts.roboto(
                         color: cinzaEscuro,
                         fontSize: 17,
@@ -373,7 +396,11 @@ class _HomePerfilState extends State<HomePerfil> {
                   title: SingleChildScrollView(
                     scrollDirection: Axis.horizontal,
                     child: Text(
+<<<<<<< HEAD
                       dados.email,
+=======
+                      "${dados.email}",
+>>>>>>> dc36cb82b6984516f22fadc21fcebe6ae65b3f83
                       style: GoogleFonts.roboto(
                         color: cinzaEscuro,
                         fontSize: 17,
@@ -419,14 +446,22 @@ class _HomePerfilState extends State<HomePerfil> {
                               fontWeight: FontWeight.bold,
                             ),
                           )
+<<<<<<< HEAD
                         : SizedBox(
+=======
+                        : Container(
+>>>>>>> dc36cb82b6984516f22fadc21fcebe6ae65b3f83
                             height: 30,
                             width: MediaQuery.of(context).size.width,
                             child: ListView(
                               scrollDirection: Axis.horizontal,
                               children: [
                                 Text(
+<<<<<<< HEAD
                                   dados.detalhes,
+=======
+                                  "${dados.detalhes}",
+>>>>>>> dc36cb82b6984516f22fadc21fcebe6ae65b3f83
                                   style: GoogleFonts.roboto(
                                     color: cinzaEscuro,
                                     fontSize: 17,
@@ -515,7 +550,11 @@ class _HomePerfilState extends State<HomePerfil> {
               fontWeight: FontWeight.bold,
             ),
           ),
+<<<<<<< HEAD
           content: SizedBox(
+=======
+          content: Container(
+>>>>>>> dc36cb82b6984516f22fadc21fcebe6ae65b3f83
             width: MediaQuery.of(context).size.width * 0.95,
             height: 180,
             child: Column(
@@ -586,6 +625,15 @@ class _HomePerfilState extends State<HomePerfil> {
           ),
           actions: [
             FilledButton(
+<<<<<<< HEAD
+=======
+              child: Text(
+                "Voltar",
+                style: GoogleFonts.roboto(
+                  color: azul,
+                ),
+              ),
+>>>>>>> dc36cb82b6984516f22fadc21fcebe6ae65b3f83
               style: ElevatedButton.styleFrom(
                 padding: const EdgeInsets.only(
                   left: 20,
@@ -605,16 +653,25 @@ class _HomePerfilState extends State<HomePerfil> {
               onPressed: () {
                 Navigator.pop(context);
               },
+<<<<<<< HEAD
               child: Text(
                 "Voltar",
                 style: GoogleFonts.roboto(
                   color: azul,
                 ),
               ),
+=======
+>>>>>>> dc36cb82b6984516f22fadc21fcebe6ae65b3f83
             ),
 
             ///
             FilledButton(
+<<<<<<< HEAD
+=======
+              child: Text(
+                "Confirmar",
+              ),
+>>>>>>> dc36cb82b6984516f22fadc21fcebe6ae65b3f83
               style: ElevatedButton.styleFrom(
                 padding: const EdgeInsets.only(
                   left: 20,
@@ -630,9 +687,12 @@ class _HomePerfilState extends State<HomePerfil> {
               onPressed: () {
                 _updateName();
               },
+<<<<<<< HEAD
               child: Text(
                 "Confirmar",
               ),
+=======
+>>>>>>> dc36cb82b6984516f22fadc21fcebe6ae65b3f83
             ),
             //
           ],
@@ -697,7 +757,11 @@ class _HomePerfilState extends State<HomePerfil> {
               fontWeight: FontWeight.bold,
             ),
           ),
+<<<<<<< HEAD
           content: SizedBox(
+=======
+          content: Container(
+>>>>>>> dc36cb82b6984516f22fadc21fcebe6ae65b3f83
             width: MediaQuery.of(context).size.width * 0.95,
             height: 180,
             child: Column(
@@ -768,6 +832,15 @@ class _HomePerfilState extends State<HomePerfil> {
           ),
           actions: [
             FilledButton(
+<<<<<<< HEAD
+=======
+              child: Text(
+                "Voltar",
+                style: GoogleFonts.roboto(
+                  color: azul,
+                ),
+              ),
+>>>>>>> dc36cb82b6984516f22fadc21fcebe6ae65b3f83
               style: ElevatedButton.styleFrom(
                 padding: const EdgeInsets.only(
                   left: 20,
@@ -787,16 +860,25 @@ class _HomePerfilState extends State<HomePerfil> {
               onPressed: () {
                 Navigator.pop(context);
               },
+<<<<<<< HEAD
               child: Text(
                 "Voltar",
                 style: GoogleFonts.roboto(
                   color: azul,
                 ),
               ),
+=======
+>>>>>>> dc36cb82b6984516f22fadc21fcebe6ae65b3f83
             ),
 
             ///
             FilledButton(
+<<<<<<< HEAD
+=======
+              child: Text(
+                "Confirmar",
+              ),
+>>>>>>> dc36cb82b6984516f22fadc21fcebe6ae65b3f83
               style: ElevatedButton.styleFrom(
                 padding: const EdgeInsets.only(
                   left: 20,
@@ -812,9 +894,12 @@ class _HomePerfilState extends State<HomePerfil> {
               onPressed: () {
                 _updateDetalhes();
               },
+<<<<<<< HEAD
               child: Text(
                 "Confirmar",
               ),
+=======
+>>>>>>> dc36cb82b6984516f22fadc21fcebe6ae65b3f83
             ),
             //
           ],
@@ -881,6 +966,7 @@ class _HomePerfilState extends State<HomePerfil> {
     });
   }
 
+<<<<<<< HEAD
 //função para comrimir imagem 500Kb
 Future<File> compressImageTo500KB(File imageFile) async {
   final image = img.decodeImage(await imageFile.readAsBytes());
@@ -927,6 +1013,28 @@ Future<File> compressImageTo500KB(File imageFile) async {
     _showSizeError();
   }
 }
+=======
+  Future<void> _pickImage() async {
+    final picker = ImagePicker();
+    final pickedFile = await picker.pickImage(source: ImageSource.gallery);
+
+    if (pickedFile != null) {
+      File file = File(pickedFile.path);
+
+      if (file.lengthSync() <= 1 * 1024 * 1024) {
+        print("object : ${file.length()}");
+        // 3MB em bytes
+        setState(() {
+          _image = file;
+        });
+
+        _uploadImage();
+      } else {
+        _showSizeError();
+      }
+    }
+  }
+>>>>>>> dc36cb82b6984516f22fadc21fcebe6ae65b3f83
 
   Future<void> _uploadImage() async {
     if (_image == null) return;
@@ -1026,8 +1134,11 @@ Future<File> compressImageTo500KB(File imageFile) async {
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(20),
             ),
+<<<<<<< HEAD
             height: MediaQuery.sizeOf(context).width * 0.4,
             width: MediaQuery.sizeOf(context).width * 0.4,
+=======
+>>>>>>> dc36cb82b6984516f22fadc21fcebe6ae65b3f83
             child: ClipRRect(
               borderRadius: BorderRadius.circular(20),
               child: Image.network(
@@ -1035,6 +1146,11 @@ Future<File> compressImageTo500KB(File imageFile) async {
                 fit: BoxFit.cover,
               ),
             ),
+<<<<<<< HEAD
+=======
+            height: MediaQuery.sizeOf(context).width * 0.4,
+            width: MediaQuery.sizeOf(context).width * 0.4,
+>>>>>>> dc36cb82b6984516f22fadc21fcebe6ae65b3f83
           )
         : _image != null
             ? Column(
@@ -1043,8 +1159,11 @@ Future<File> compressImageTo500KB(File imageFile) async {
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(20),
                     ),
+<<<<<<< HEAD
                     height: MediaQuery.sizeOf(context).width * 0.4,
                     width: MediaQuery.sizeOf(context).width * 0.4,
+=======
+>>>>>>> dc36cb82b6984516f22fadc21fcebe6ae65b3f83
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(20),
                       child: Image.file(
@@ -1052,6 +1171,11 @@ Future<File> compressImageTo500KB(File imageFile) async {
                         fit: BoxFit.cover,
                       ),
                     ),
+<<<<<<< HEAD
+=======
+                    height: MediaQuery.sizeOf(context).width * 0.4,
+                    width: MediaQuery.sizeOf(context).width * 0.4,
+>>>>>>> dc36cb82b6984516f22fadc21fcebe6ae65b3f83
                   ),
                   SizedBox(height: 10),
                   _uploadProgress > 0
